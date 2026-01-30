@@ -1,0 +1,70 @@
+{
+  "list": {
+    "crumbs": {
+      "admin": "Admin",
+      "demos": "Demo Management"
+    },
+    "title": "Demo Management",
+    "tabs": {
+      "default": "Default Order",
+      "newest": "Newest",
+      "oldest": "Oldest"
+    },
+    "filters": {
+      "status": {
+        "title": "Status",
+        "options": {
+          "all": "All",
+          "published": "Published",
+          "draft": "Draft",
+          "archived": "Archived"
+        }
+      },
+      "admin": {
+        "title": "Admin",
+        "options": {
+          "all": "All",
+          "unassigned": "Unassigned"
+        }
+      }
+    },
+    "actions": {
+      "add": "Add Demo"
+    },
+    "search": {
+      "title": {
+        "title": "Search Demo",
+        "placeholder": "Enter demo title"
+      }
+    }
+  },
+  "add": {
+    "title": "Add Demo",
+    "back": "Back to List",
+    "sections": {
+      "basic": "Basic Information",
+      "points": "Key Points",
+      "audience": "Target Audience",
+      "aiInsights": "AI Insights",
+      "steps": "Demo Steps",
+      "tables": "Table Data"
+    }
+  },
+  "edit": {
+    "title": "Edit {{title}}",
+    "back": "Back to List"
+  },
+  "fields": {
+    "title": "Title",
+    "slug": "Slug",
+    "category": "Category",
+    "status": "Status",
+    "sort": "Sort",
+    "createdAt": "Created At",
+    "actions": "Actions",
+    "valueProp": "Value Proposition",
+    "description": "Description",
+    "coverImage": "Cover Image URL",
+    "admin": "Creator"
+  }
+}

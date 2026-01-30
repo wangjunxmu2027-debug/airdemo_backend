@@ -1,0 +1,22 @@
+{
+  "nodes": [
+    {"nodeKey":"camera-input","title":"摄像头点位输入","description":"录入厂区点位与摄像头绑定信息，建立可追溯数据源","icon":"Camera","color":"bg-blue-500","posX":100,"posY":100,"sort":0},
+    {"nodeKey":"video-frames","title":"视频抽帧","description":"从视频流按规则抽帧，生成可检索的图片序列","icon":"Camera","color":"bg-indigo-500","posX":400,"posY":100,"sort":1},
+    {"nodeKey":"ai-detection","title":"AI识别违规","description":"识别在岗玩手机、睡岗、5S不合规等违规行为","icon":"Brain","color":"bg-purple-500","posX":700,"posY":100,"sort":2},
+    {"nodeKey":"dashboard","title":"大屏展示","description":"实时汇总告警与趋势，管理者在大屏一眼掌控","icon":"Monitor","color":"bg-green-500","posX":400,"posY":350,"sort":3},
+    {"nodeKey":"data-entry","title":"数据录入","description":"违规记录与字段自动入表，支持人工补充与复核","icon":"CheckSquare","color":"bg-orange-500","posX":700,"posY":350,"sort":4}
+  ],
+  "edges": [
+    {"sourceNodeKey":"camera-input","targetNodeKey":"video-frames"},
+    {"sourceNodeKey":"video-frames","targetNodeKey":"ai-detection"},
+    {"sourceNodeKey":"video-frames","targetNodeKey":"dashboard"},
+    {"sourceNodeKey":"ai-detection","targetNodeKey":"data-entry"},
+    {"sourceNodeKey":"dashboard","targetNodeKey":"data-entry"}
+  ],
+  "panelConfig": {
+    "videoUrl": "/video/巡检demo演示.mp4",
+    "docUrl": "https://bytedance.larkoffice.com/docx/IGOIdvqKwoyr0txSiAOchpoSn7d",
+    "description": "基于AI视觉的智能巡检系统，自动识别工厂违规行为，实时告警并生成巡检报告，提升安全管理效率。",
+    "keyNodes": ["摄像头点位输入","视频抽帧","AI识别违规","大屏展示","数据录入"]
+  }
+}

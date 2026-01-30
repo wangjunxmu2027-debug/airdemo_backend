@@ -1,0 +1,42 @@
+{
+  "list": {
+    "crumbs": {
+      "admin": "Admin",
+      "tools": "Digital Tools"
+    },
+    "title": "Digital Tools Management",
+    "actions": {
+      "add": "Add Tool"
+    },
+    "search": {
+      "name": {
+        "title": "Search Tool",
+        "placeholder": "Enter tool name"
+      }
+    }
+  },
+  "add": {
+    "title": "Add Tool",
+    "back": "Back to List",
+    "sections": {
+      "basic": "Basic Information"
+    }
+  },
+  "edit": {
+    "title": "Edit Tool",
+    "back": "Back to List"
+  },
+  "fields": {
+    "name": "Name",
+    "title": "Title",
+    "url": "URL",
+    "avatarUrl": "Avatar URL",
+    "description": "Description",
+    "highlight": "Highlight Text",
+    "skills": "Skills",
+    "sort": "Sort",
+    "status": "Status",
+    "createdAt": "Created At",
+    "actions": "Actions"
+  }
+}

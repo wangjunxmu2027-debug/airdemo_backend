@@ -1,0 +1,42 @@
+{
+  "list": {
+    "crumbs": {
+      "admin": "管理后台",
+      "tools": "数字伙伴管理"
+    },
+    "title": "数字伙伴管理",
+    "actions": {
+      "add": "新增工具"
+    },
+    "search": {
+      "name": {
+        "title": "搜索工具",
+        "placeholder": "输入工具名称"
+      }
+    }
+  },
+  "add": {
+    "title": "新增工具",
+    "back": "返回列表",
+    "sections": {
+      "basic": "基本信息"
+    }
+  },
+  "edit": {
+    "title": "编辑工具",
+    "back": "返回列表"
+  },
+  "fields": {
+    "name": "名称",
+    "title": "标题",
+    "url": "链接",
+    "avatarUrl": "头像 URL",
+    "description": "描述",
+    "highlight": "高亮文案",
+    "skills": "技能",
+    "sort": "排序",
+    "status": "状态",
+    "createdAt": "创建时间",
+    "actions": "操作"
+  }
+}

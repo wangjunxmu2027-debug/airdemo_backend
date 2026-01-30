@@ -1,0 +1,70 @@
+{
+  "list": {
+    "crumbs": {
+      "admin": "管理后台",
+      "demos": "Demo 管理"
+    },
+    "title": "Demo 管理",
+    "tabs": {
+      "default": "默认排序",
+      "newest": "最新创建",
+      "oldest": "最早创建"
+    },
+    "filters": {
+      "status": {
+        "title": "状态",
+        "options": {
+          "all": "全部",
+          "published": "已发布",
+          "draft": "草稿",
+          "archived": "已归档"
+        }
+      },
+      "admin": {
+        "title": "管理员",
+        "options": {
+          "all": "全部",
+          "unassigned": "未分配"
+        }
+      }
+    },
+    "actions": {
+      "add": "新增 Demo"
+    },
+    "search": {
+      "title": {
+        "title": "搜索 Demo",
+        "placeholder": "输入 Demo 标题"
+      }
+    }
+  },
+  "add": {
+    "title": "新增 Demo",
+    "back": "返回列表",
+    "sections": {
+      "basic": "基本信息",
+      "points": "核心要点",
+      "audience": "目标受众",
+      "aiInsights": "AI 洞察",
+      "steps": "演示步骤",
+      "tables": "表格数据"
+    }
+  },
+  "edit": {
+    "title": "编辑 {{title}}",
+    "back": "返回列表"
+  },
+  "fields": {
+    "title": "标题",
+    "slug": "标识符",
+    "category": "分类",
+    "status": "状态",
+    "sort": "排序",
+    "createdAt": "创建时间",
+    "actions": "操作",
+    "valueProp": "价值主张",
+    "description": "描述",
+    "coverImage": "封面图 URL",
+    "admin": "创建人"
+  }
+}

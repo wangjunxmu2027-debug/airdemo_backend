@@ -1,0 +1,21 @@
+{
+  "nodes": [
+    {"nodeKey":"customer-data","title":"客户数据采集","description":"自动同步CRM客户信息、商机数据和行为轨迹","icon":"Database","color":"bg-blue-500","posX":100,"posY":100,"sort":0},
+    {"nodeKey":"lead-scoring","title":"线索评分","description":"基于AI模型对线索进行智能评分和分级","icon":"Brain","color":"bg-purple-500","posX":400,"posY":100,"sort":1},
+    {"nodeKey":"intent-analysis","title":"意图分析","description":"分析客户行为意图，识别高价值商机","icon":"Search","color":"bg-indigo-500","posX":700,"posY":100,"sort":2},
+    {"nodeKey":"smart-recommend","title":"智能推荐","description":"根据客户画像推荐最佳跟进策略和内容","icon":"Zap","color":"bg-orange-500","posX":400,"posY":350,"sort":3},
+    {"nodeKey":"action-trigger","title":"行动触发","description":"自动触发营销动作，推送个性化内容","icon":"MessageSquare","color":"bg-green-500","posX":700,"posY":350,"sort":4}
+  ],
+  "edges": [
+    {"sourceNodeKey":"customer-data","targetNodeKey":"lead-scoring"},
+    {"sourceNodeKey":"lead-scoring","targetNodeKey":"intent-analysis"},
+    {"sourceNodeKey":"intent-analysis","targetNodeKey":"smart-recommend"},
+    {"sourceNodeKey":"smart-recommend","targetNodeKey":"action-trigger"}
+  ],
+  "panelConfig": {
+    "videoUrl": "",
+    "docUrl": "",
+    "description": "AI驱动的销售智能系统，通过客户行为分析和意图识别，帮助销售团队精准定位高价值商机，提升转化率。",
+    "keyNodes": ["客户数据采集","线索评分","意图分析","智能推荐","行动触发"]
+  }
+}

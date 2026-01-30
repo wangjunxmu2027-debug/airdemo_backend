@@ -1,0 +1,31 @@
+{
+  "title": "设置",
+  "nav": {
+    "items": [
+      {
+        "title": "个人资料",
+        "url": "/settings/profile",
+        "icon": "User"
+      },
+      {
+        "title": "账单",
+        "url": "/settings/billing",
+        "icon": "CreditCard"
+      },
+      {
+        "title": "API 密钥",
+        "url": "/settings/apikeys",
+        "icon": "RiKeyLine"
+      }
+    ]
+  },
+  "top_nav": {
+    "items": [
+      {
+        "title": "设置",
+        "url": "/settings",
+        "icon": "Settings"
+      }
+    ]
+  }
+}
